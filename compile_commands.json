@@ -1,0 +1,102 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I./include",
+      "-std=c++11",
+      "-g",
+      "-W",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O0",
+      "-c",
+      "-o",
+      "build/./src/Vectorf.cpp.o",
+      "src/Vectorf.cpp"
+    ],
+    "directory": "/Users/slop/Desktop/Projects/sloppyMath",
+    "file": "/Users/slop/Desktop/Projects/sloppyMath/src/Vectorf.cpp",
+    "output": "/Users/slop/Desktop/Projects/sloppyMath/build/src/Vectorf.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I./include",
+      "-std=c++11",
+      "-g",
+      "-W",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O0",
+      "-c",
+      "-o",
+      "build/./src/Matrixf.cpp.o",
+      "src/Matrixf.cpp"
+    ],
+    "directory": "/Users/slop/Desktop/Projects/sloppyMath",
+    "file": "/Users/slop/Desktop/Projects/sloppyMath/src/Matrixf.cpp",
+    "output": "/Users/slop/Desktop/Projects/sloppyMath/build/src/Matrixf.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I./include",
+      "-std=c++11",
+      "-g",
+      "-W",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O0",
+      "-c",
+      "-o",
+      "build/./src/Vector.cpp.o",
+      "src/Vector.cpp"
+    ],
+    "directory": "/Users/slop/Desktop/Projects/sloppyMath",
+    "file": "/Users/slop/Desktop/Projects/sloppyMath/src/Vector.cpp",
+    "output": "/Users/slop/Desktop/Projects/sloppyMath/build/src/Vector.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I./include",
+      "-std=c++11",
+      "-g",
+      "-W",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O0",
+      "-c",
+      "-o",
+      "build/./src/Matrix.cpp.o",
+      "src/Matrix.cpp"
+    ],
+    "directory": "/Users/slop/Desktop/Projects/sloppyMath",
+    "file": "/Users/slop/Desktop/Projects/sloppyMath/src/Matrix.cpp",
+    "output": "/Users/slop/Desktop/Projects/sloppyMath/build/src/Matrix.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I./include",
+      "-std=c++11",
+      "-g",
+      "-W",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O0",
+      "-c",
+      "-o",
+      "build/./src/main.cpp.o",
+      "src/main.cpp"
+    ],
+    "directory": "/Users/slop/Desktop/Projects/sloppyMath",
+    "file": "/Users/slop/Desktop/Projects/sloppyMath/src/main.cpp",
+    "output": "/Users/slop/Desktop/Projects/sloppyMath/build/src/main.cpp.o"
+  }
+]
