@@ -49,10 +49,41 @@ void runVectorTests()
    std::cout << "uV1: ";
    (Norm(vec1)).print();
 }
+void runMatrixTests()
+{
+   std::cout << "\n---- Matrix Tests ----" << std::endl;
+   Vector v1({2,3,4});
+   Matrix m1({{1,2,3}, {2,3,2}, {3,1,2}});
+   Matrix m2({{0,1,0}, {0,0,1}, {1,0,1}});
+
+   std::cout << "Vector1: ";
+   v1.print();
+   std::cout << "Matrix1: ";
+   m1.print();
+   std::cout << "Matrix2: ";
+   m2.print();
+
+   std::cout << "M1*M2" << std::endl;
+   (m1*m2).print();
+
+   std::cout << "M2*M1" << std::endl;
+   (m2*m1).print();
+
+   std::cout << "V1*M1" << std::endl;
+   (v1*m1).print();
+
+   std::cout << "\nM1*V1" << std::endl;
+   (m1*v1).print();
+}
+
 int main()
 {
    // Vector Tests
    runVectorTests();
+
+   // Matrix Tests
+   runMatrixTests();
+
    return 0;
 }
 

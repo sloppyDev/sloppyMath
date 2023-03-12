@@ -95,17 +95,17 @@ Vector Vector::operator*(double in)
 
    return newVec;
 }
-//Vector Vector::operator*(const Matrix &matIn)
-//{
-//   sizeCheck(matIn);
-//   Vector newVec(matIn.numCols);
-//   for (unsigned int i = 0; i < newVec.size; i++)
-//   {
-//      newVec.vals[i] = dot(*this, matIn.getColumn(i));
-//   }
-//
-//   return newVec;
-//}
+Vector Vector::operator*(Matrix matIn)
+{
+   sizeCheck(matIn);
+   Vector newVec(matIn.numCols);
+   for (unsigned int i = 0; i < newVec.size; i++)
+   {
+      newVec.vals[i] = Dot(*this, matIn.getColumn(i));
+   }
+
+   return newVec;
+}
 
 Vector Vector::operator/(double in)
 {
@@ -126,10 +126,10 @@ void Vector::sizeCheck(const Vector &vecIn)
 {
    assert(size == vecIn.size);
 }
-//void Vector::sizeCheck(const Matrix &matIn)
-//{
-//   assert(size == matIn.numRows);
-//}
+void Vector::sizeCheck(const Matrix &matIn)
+{
+   assert(size == matIn.numRows);
+}
 
 void Vector::print()
 {

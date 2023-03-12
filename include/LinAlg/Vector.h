@@ -24,7 +24,7 @@ struct Vector
    Vector operator-(const Vector &vecIn);
 
    Vector operator*(double in);
-//   Vector operator*(const Matrix &matIn);
+   Vector operator*(Matrix matIn);
    double dot(Vector in1, Vector in2);
    Vector cross(Vector in1, Vector in2);
 
@@ -33,7 +33,7 @@ struct Vector
    Vector normalize(Vector vecIn);
 
    void sizeCheck(const Vector &vecIn);
- //  void sizeCheck(const Matrix &matIn);
+   void sizeCheck(const Matrix &matIn);
 
    void print();
 

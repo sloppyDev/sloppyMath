@@ -3,6 +3,8 @@
     "arguments": [
       "/usr/bin/g++",
       "-I./include",
+      "-I./include/LinAlg",
+      "-I./include/Rotations",
       "-std=c++11",
       "-g",
       "-W",
@@ -12,91 +14,165 @@
       "-O0",
       "-c",
       "-o",
-      "build/./src/Vectorf.cpp.o",
-      "src/Vectorf.cpp"
-    ],
-    "directory": "/Users/slop/Desktop/Projects/sloppyMath",
-    "file": "/Users/slop/Desktop/Projects/sloppyMath/src/Vectorf.cpp",
-    "output": "/Users/slop/Desktop/Projects/sloppyMath/build/src/Vectorf.cpp.o"
-  },
-  {
-    "arguments": [
-      "/usr/bin/g++",
-      "-I./include",
-      "-std=c++11",
-      "-g",
-      "-W",
-      "-Wall",
-      "-Wextra",
-      "-pedantic",
-      "-O0",
-      "-c",
-      "-o",
-      "build/./src/Matrixf.cpp.o",
-      "src/Matrixf.cpp"
-    ],
-    "directory": "/Users/slop/Desktop/Projects/sloppyMath",
-    "file": "/Users/slop/Desktop/Projects/sloppyMath/src/Matrixf.cpp",
-    "output": "/Users/slop/Desktop/Projects/sloppyMath/build/src/Matrixf.cpp.o"
-  },
-  {
-    "arguments": [
-      "/usr/bin/g++",
-      "-I./include",
-      "-std=c++11",
-      "-g",
-      "-W",
-      "-Wall",
-      "-Wextra",
-      "-pedantic",
-      "-O0",
-      "-c",
-      "-o",
-      "build/./src/Vector.cpp.o",
-      "src/Vector.cpp"
-    ],
-    "directory": "/Users/slop/Desktop/Projects/sloppyMath",
-    "file": "/Users/slop/Desktop/Projects/sloppyMath/src/Vector.cpp",
-    "output": "/Users/slop/Desktop/Projects/sloppyMath/build/src/Vector.cpp.o"
-  },
-  {
-    "arguments": [
-      "/usr/bin/g++",
-      "-I./include",
-      "-std=c++11",
-      "-g",
-      "-W",
-      "-Wall",
-      "-Wextra",
-      "-pedantic",
-      "-O0",
-      "-c",
-      "-o",
-      "build/./src/Matrix.cpp.o",
-      "src/Matrix.cpp"
-    ],
-    "directory": "/Users/slop/Desktop/Projects/sloppyMath",
-    "file": "/Users/slop/Desktop/Projects/sloppyMath/src/Matrix.cpp",
-    "output": "/Users/slop/Desktop/Projects/sloppyMath/build/src/Matrix.cpp.o"
-  },
-  {
-    "arguments": [
-      "/usr/bin/g++",
-      "-I./include",
-      "-std=c++11",
-      "-g",
-      "-W",
-      "-Wall",
-      "-Wextra",
-      "-pedantic",
-      "-O0",
-      "-c",
-      "-o",
-      "build/./src/main.cpp.o",
+      "build/src/main.cpp.o",
       "src/main.cpp"
     ],
-    "directory": "/Users/slop/Desktop/Projects/sloppyMath",
-    "file": "/Users/slop/Desktop/Projects/sloppyMath/src/main.cpp",
-    "output": "/Users/slop/Desktop/Projects/sloppyMath/build/src/main.cpp.o"
+    "directory": "/Users/slop/Projects/sloppyMath",
+    "file": "/Users/slop/Projects/sloppyMath/src/main.cpp",
+    "output": "/Users/slop/Projects/sloppyMath/build/src/main.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I./include",
+      "-I./include/LinAlg",
+      "-I./include/Rotations",
+      "-std=c++11",
+      "-g",
+      "-W",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O0",
+      "-c",
+      "-o",
+      "build/./src/LinAlg/Vectorf.cpp.o",
+      "src/LinAlg/Vectorf.cpp"
+    ],
+    "directory": "/Users/slop/Projects/sloppyMath",
+    "file": "/Users/slop/Projects/sloppyMath/src/LinAlg/Vectorf.cpp",
+    "output": "/Users/slop/Projects/sloppyMath/build/src/LinAlg/Vectorf.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I./include",
+      "-I./include/LinAlg",
+      "-I./include/Rotations",
+      "-std=c++11",
+      "-g",
+      "-W",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O0",
+      "-c",
+      "-o",
+      "build/./src/LinAlg/Matrixf.cpp.o",
+      "src/LinAlg/Matrixf.cpp"
+    ],
+    "directory": "/Users/slop/Projects/sloppyMath",
+    "file": "/Users/slop/Projects/sloppyMath/src/LinAlg/Matrixf.cpp",
+    "output": "/Users/slop/Projects/sloppyMath/build/src/LinAlg/Matrixf.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I./include",
+      "-I./include/LinAlg",
+      "-I./include/Rotations",
+      "-std=c++11",
+      "-g",
+      "-W",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O0",
+      "-c",
+      "-o",
+      "build/./src/LinAlg/Vector.cpp.o",
+      "src/LinAlg/Vector.cpp"
+    ],
+    "directory": "/Users/slop/Projects/sloppyMath",
+    "file": "/Users/slop/Projects/sloppyMath/src/LinAlg/Vector.cpp",
+    "output": "/Users/slop/Projects/sloppyMath/build/src/LinAlg/Vector.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I./include",
+      "-I./include/LinAlg",
+      "-I./include/Rotations",
+      "-std=c++11",
+      "-g",
+      "-W",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O0",
+      "-c",
+      "-o",
+      "build/./src/LinAlg/Matrix.cpp.o",
+      "src/LinAlg/Matrix.cpp"
+    ],
+    "directory": "/Users/slop/Projects/sloppyMath",
+    "file": "/Users/slop/Projects/sloppyMath/src/LinAlg/Matrix.cpp",
+    "output": "/Users/slop/Projects/sloppyMath/build/src/LinAlg/Matrix.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I./include",
+      "-I./include/LinAlg",
+      "-I./include/Rotations",
+      "-std=c++11",
+      "-g",
+      "-W",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O0",
+      "-c",
+      "-o",
+      "build/./src/Rotations/EulerAngles.cpp.o",
+      "src/Rotations/EulerAngles.cpp"
+    ],
+    "directory": "/Users/slop/Projects/sloppyMath",
+    "file": "/Users/slop/Projects/sloppyMath/src/Rotations/EulerAngles.cpp",
+    "output": "/Users/slop/Projects/sloppyMath/build/src/Rotations/EulerAngles.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I./include",
+      "-I./include/LinAlg",
+      "-I./include/Rotations",
+      "-std=c++11",
+      "-g",
+      "-W",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O0",
+      "-c",
+      "-o",
+      "build/./src/Rotations/Quaternion.cpp.o",
+      "src/Rotations/Quaternion.cpp"
+    ],
+    "directory": "/Users/slop/Projects/sloppyMath",
+    "file": "/Users/slop/Projects/sloppyMath/src/Rotations/Quaternion.cpp",
+    "output": "/Users/slop/Projects/sloppyMath/build/src/Rotations/Quaternion.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I./include",
+      "-I./include/LinAlg",
+      "-I./include/Rotations",
+      "-std=c++11",
+      "-g",
+      "-W",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O0",
+      "-c",
+      "-o",
+      "build/./src/Rotations/TransformMat.cpp.o",
+      "src/Rotations/TransformMat.cpp"
+    ],
+    "directory": "/Users/slop/Projects/sloppyMath",
+    "file": "/Users/slop/Projects/sloppyMath/src/Rotations/TransformMat.cpp",
+    "output": "/Users/slop/Projects/sloppyMath/build/src/Rotations/TransformMat.cpp.o"
   }
 ]

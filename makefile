@@ -4,8 +4,8 @@ LIB_INC = $(NAME).h
 
 COMM_LIB_DIR = ../commonLibs
 BUILD_DIR = ./build
-SRC_DIRS = ./src
-INC_DIRS = ./include
+SRC_DIRS = ./src ./src/LinAlg
+INC_DIRS = ./include ./include/LinAlg ./include/Rotations
 COMM_INC_DIR = $(COMM_LIB_DIR)/include
 
 SRCS = $(shell find $(SRC_DIRS) -name *.cpp)
