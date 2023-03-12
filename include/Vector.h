@@ -5,6 +5,7 @@
 #include <iostream>
 #include <vector>
 #include <list>
+#include <math.h>
 
 struct Matrix;
 struct Vector
@@ -30,7 +31,6 @@ struct Vector
    Vector operator/(double in);
    void normalize();
    Vector normalize(Vector vecIn);
-   double magnitude(const Vector &vecIn);
 
    void sizeCheck(const Vector &vecIn);
  //  void sizeCheck(const Matrix &matIn);
@@ -41,4 +41,9 @@ struct Vector
    unsigned int size;
 
 };
+
+double Dot(Vector v1, Vector v2);
+Vector Cross(Vector v1, Vector v2);
+double Mag(Vector vIn);
+Vector Norm(Vector vIn);
 #endif

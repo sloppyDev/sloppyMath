@@ -15,11 +15,11 @@ INC_FLAGS = $(addprefix -I,$(INC_DIRS))
 CPPFLAGS = $(INC_FLAGS) -MMD -MP -std=c++11
 CXXFLAGS = -g -W -Wall -Wextra -pedantic -O0
 
+test: build/src/main.cpp.o $(COMM_LIB_DIR)/$(TARGET)
+	g++ $^ -o $@ 
+
 copy: $(COMM_LIB_DIR)/$(TARGET)
 	cp $(INC_DIRS)/$(LIB_INC) $(COMM_INC_DIR)/$(LIB_INC)
-
-test: lib/src/main.cpp.o $(LIB_DIR)/$(TARGET)
-	g++ $^ -o $@ 
 
 $(COMM_LIB_DIR)/$(TARGET): $(OBJS)
 	ar rcs $@ $^
